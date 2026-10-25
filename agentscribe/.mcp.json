@@ -2,8 +2,8 @@
   "mcpServers": {
     "agentscribe": {
       "type": "stdio",
-      "command": "/Applications/AgentScribe.app/Contents/Helpers/agent-notes",
-      "args": ["--agent", "claude"]
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/agentscribe-mcp",
+      "args": []
     }
   }
 }

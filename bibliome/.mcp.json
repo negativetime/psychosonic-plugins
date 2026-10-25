@@ -2,12 +2,8 @@
   "mcpServers": {
     "bibliome-library": {
       "type": "stdio",
-      "command": "/usr/bin/python3",
-      "args": ["/Applications/Bibliome.app/Contents/Resources/pdf_organizer/mcp_server.py"],
-      "env": {
-        "PDF_DATA_DIR": "~/Library/Containers/com.langberg.mypdflibrarian/Data/Library/Application Support/PDFOrganizer",
-        "BIBLIOME_MCP_SOCKET": "${HOME}/Library/Containers/com.langberg.mypdflibrarian/Data/bibliome-mcp.sock"
-      }
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/bibliome-mcp.py",
+      "args": []
     }
   }
 }

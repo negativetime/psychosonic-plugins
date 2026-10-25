@@ -1,0 +1,8 @@
+#!/bin/sh
+# Start AgentScribe's connector for Claude: the helper that ships inside AgentScribe.app.
+# --agent claude only labels which app saved a memory.
+[ -x /Applications/AgentScribe.app/Contents/Helpers/agent-notes ] || {
+  echo "AgentScribe is not installed in /Applications. It is on the Mac App Store: https://apps.apple.com/us/app/agentscribe/id6813940342" >&2
+  exit 1
+}
+exec /Applications/AgentScribe.app/Contents/Helpers/agent-notes --agent claude
