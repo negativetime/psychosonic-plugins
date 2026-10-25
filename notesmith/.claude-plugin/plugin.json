@@ -1,6 +1,6 @@
 {
   "name": "notesmith",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude can search and read your Notesmith notes on this Mac. Needs Notesmith from the Mac App Store.",
   "author": {
     "name": "Joshua Langberg",

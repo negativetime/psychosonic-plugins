@@ -2,11 +2,8 @@
   "mcpServers": {
     "agentscribe": {
       "type": "stdio",
-      "command": "/bin/sh",
-      "args": [
-        "-c",
-        "h=/Applications/AgentScribe.app/Contents/Helpers/agent-notes; [ -x \"$h\" ] || { echo 'AgentScribe is not installed in /Applications. It is on the Mac App Store: https://apps.apple.com/us/app/agentscribe/id6813940342' >&2; exit 1; }; exec \"$h\" --agent claude"
-      ]
+      "command": "/Applications/AgentScribe.app/Contents/Helpers/agent-notes",
+      "args": ["--agent", "claude"]
     }
   }
 }

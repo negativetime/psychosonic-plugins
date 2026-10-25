@@ -1,6 +1,6 @@
 {
   "name": "agentscribe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A memory for Claude that lives on your Mac and that you can review. Needs AgentScribe from the Mac App Store.",
   "author": {
     "name": "Joshua Langberg",

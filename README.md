@@ -21,8 +21,10 @@ Install only the ones for apps you have.
 
 ## What each plugin needs
 
-- A Mac with the app installed in /Applications from the Mac App Store. Without it, the plugin stops with a message saying so.
+- A Mac with the app installed in /Applications from the Mac App Store. Without it, the plugin can't connect.
 - bibliome: Bibliome open while you use it. Its connector runs on the Python that comes with macOS, which needs Apple's command line tools once (`xcode-select --install`).
+
+These run in Claude Code and Cowork on your Mac. They don't run on claude.ai in a browser.
 
 ## Without the plugin
 
