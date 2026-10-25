@@ -1,6 +1,6 @@
 {
   "name": "bibliome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Claude can search your Bibliome PDF library, answer from it and check claims against it, with links to the page. Needs Bibliome from the Mac App Store, open while you use it.",
   "author": {
     "name": "Joshua Langberg",
