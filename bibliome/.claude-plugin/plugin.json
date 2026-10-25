@@ -9,5 +9,9 @@
   "homepage": "https://psychosonicconsulting.com/bibliome",
   "repository": "https://github.com/negativetime/psychosonic-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://negativetime.github.io/bibliome-privacy/#privacy",
+  "supportUrl": "https://negativetime.github.io/bibliome-privacy/#support",
+  "documentationUrl": "https://github.com/negativetime/psychosonic-plugins#readme",
+  "termsOfServiceUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
   "keywords": ["pdf", "library", "bibliome", "mcp", "local", "macos"]
 }

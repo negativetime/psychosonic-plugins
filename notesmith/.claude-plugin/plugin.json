@@ -9,5 +9,9 @@
   "homepage": "https://psychosonicconsulting.com/notesmith",
   "repository": "https://github.com/negativetime/psychosonic-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://negativetime.github.io/notesmith-support/#privacy",
+  "supportUrl": "https://negativetime.github.io/notesmith-support/#support",
+  "documentationUrl": "https://github.com/negativetime/psychosonic-plugins#readme",
+  "termsOfServiceUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
   "keywords": ["notes", "notesmith", "mcp", "local", "macos"]
 }
