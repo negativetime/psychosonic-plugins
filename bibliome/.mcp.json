@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bibliome-library": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "s=/Applications/Bibliome.app/Contents/Resources/pdf_organizer/mcp_server.py; [ -f \"$s\" ] || { echo 'Bibliome is not installed in /Applications. It is on the Mac App Store: https://apps.apple.com/us/app/bibliome-library/id6786826590' >&2; exit 1; }; xcode-select -p >/dev/null 2>&1 || { echo 'The Bibliome connector needs Apple command line tools for now. Run xcode-select --install once, then restart Claude.' >&2; exit 1; }; d=\"$HOME/Library/Containers/com.langberg.mypdflibrarian/Data\"; PDF_DATA_DIR=\"$d/Library/Application Support/PDFOrganizer\" BIBLIOME_MCP_SOCKET=\"$d/bibliome-mcp.sock\" exec /usr/bin/python3 \"$s\""
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "agent-notes": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "h=/Applications/Notesmith.app/Contents/Helpers/agent-notes; [ -x \"$h\" ] || { echo 'Notesmith is not installed in /Applications. It is on the Mac App Store: https://apps.apple.com/us/app/notesmith/id6802464646' >&2; exit 1; }; exec \"$h\""
+      ]
+    }
+  }
+}

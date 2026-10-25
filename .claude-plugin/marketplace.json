@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "psychosonic",
+  "description": "Connect Claude to Notesmith, Bibliome and AgentScribe on your Mac. Everything stays on the Mac.",
+  "owner": {
+    "name": "Joshua Langberg",
+    "url": "https://psychosonicconsulting.com"
+  },
+  "plugins": [
+    {
+      "name": "notesmith",
+      "description": "Claude can search and read your Notesmith notes on this Mac.",
+      "source": "./notesmith",
+      "category": "productivity"
+    },
+    {
+      "name": "bibliome",
+      "description": "Claude can search your Bibliome PDF library, answer from it and check claims against it, with links to the page.",
+      "source": "./bibliome",
+      "category": "productivity"
+    },
+    {
+      "name": "agentscribe",
+      "description": "A memory for Claude that lives on your Mac and that you can review.",
+      "source": "./agentscribe",
+      "category": "productivity"
+    }
+  ]
+}

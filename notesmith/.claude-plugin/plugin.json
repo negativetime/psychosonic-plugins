@@ -1,0 +1,13 @@
+{
+  "name": "notesmith",
+  "version": "1.0.0",
+  "description": "Claude can search and read your Notesmith notes on this Mac. Needs Notesmith from the Mac App Store.",
+  "author": {
+    "name": "Joshua Langberg",
+    "url": "https://psychosonicconsulting.com"
+  },
+  "homepage": "https://psychosonicconsulting.com/notesmith",
+  "repository": "https://github.com/negativetime/psychosonic-plugins",
+  "license": "MIT",
+  "keywords": ["notes", "notesmith", "mcp", "local", "macos"]
+}

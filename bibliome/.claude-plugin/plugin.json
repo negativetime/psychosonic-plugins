@@ -1,0 +1,13 @@
+{
+  "name": "bibliome",
+  "version": "1.0.0",
+  "description": "Claude can search your Bibliome PDF library, answer from it and check claims against it, with links to the page. Needs Bibliome from the Mac App Store, open while you use it.",
+  "author": {
+    "name": "Joshua Langberg",
+    "url": "https://psychosonicconsulting.com"
+  },
+  "homepage": "https://psychosonicconsulting.com/bibliome",
+  "repository": "https://github.com/negativetime/psychosonic-plugins",
+  "license": "MIT",
+  "keywords": ["pdf", "library", "bibliome", "mcp", "local", "macos"]
+}

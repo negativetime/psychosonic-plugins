@@ -1,0 +1,13 @@
+{
+  "name": "agentscribe",
+  "version": "1.0.0",
+  "description": "A memory for Claude that lives on your Mac and that you can review. Needs AgentScribe from the Mac App Store.",
+  "author": {
+    "name": "Joshua Langberg",
+    "url": "https://psychosonicconsulting.com"
+  },
+  "homepage": "https://psychosonicconsulting.com/agentscribe/",
+  "repository": "https://github.com/negativetime/psychosonic-plugins",
+  "license": "MIT",
+  "keywords": ["memory", "agentscribe", "mcp", "local", "macos"]
+}
